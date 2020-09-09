@@ -10,6 +10,7 @@ The audience of the analysis and evaluation is traffic police of different regio
 They would care about the problem because it really helps to reduce fatalities overall and help increase awareness by using data science methods to clean and reveal hidden insights from the data.
 
 Data
+
 I will be using the offered metadata on accidents and severity in this course to execute my idea. It is widely available on the Canadian government website and can also be found from Week 1 link in the course.
 In order to execute my problem, I will (1) clean the data to remove excess columns, replace NaN data values, or clear empty columns. Then, I will (2) ensure all data types of each data is correct and (3) create multiple regression to see which variables most impact the accidence severity code and then finally use (4) KNN or Decision Tree or Logistic Regression to classify new conditions as either 1 or 2 in severity code.
 As an example, ROADCOND is likely to be important. When road conditions are wet, the risk of accident increases to 2. So I will analyze it as a part of classification process while also doing accuracy evaluations depending on the machine learning technique deployed. If it is a decision tree, I will compute entropy and gain to get the best ordering of different variables in classification and finally use Jaccard or confusion matrix to provide accuracy metrics.
